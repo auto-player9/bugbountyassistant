@@ -1,0 +1,12 @@
+2026-05-08 23:06:08,240 - Assistant - WARNING - Session is empty.
+2026-05-08 23:06:30,422 - Assistant - INFO - Initiating interactive login for: *.neon.tech
+2026-05-08 23:06:45,050 - Assistant - INFO - Navigating to: https://console.neon.tech for session sync.
+2026-05-08 23:07:52,178 - Assistant - INFO - Session cookies successfully extracted.
+2026-05-08 23:07:58,505 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-08 23:11:15,100 - Assistant - INFO - Starting crawl for: https://console.neon.tech
+2026-05-08 23:11:15,132 - Assistant - INFO - Executing Waybackurls...
+2026-05-08 23:11:15,262 - Assistant - ERROR - Crawl process failed: [Errno 2] No such file or directory: ' /home/alex/go/bin/waybackurls'
+2026-05-08 23:11:19,338 - Assistant - INFO - System identity retrieved: alex
+2026-05-08 23:12:09,619 - Assistant - INFO - Starting crawl for: https://console.neon.tech
+2026-05-08 23:12:09,693 - Assistant - INFO - Executing Waybackurls...
+2026-05-08 23:12:09,747 - Assistant - ERROR - Crawl process failed: [Errno 2] No such file or directory: ' /home/alex/go/bin/waybackurls'

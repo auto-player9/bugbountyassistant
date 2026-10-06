@@ -1,0 +1,13 @@
+2026-05-08 14:50:11,317 - Assistant - INFO - System identity retrieved: alex
+2026-05-08 14:50:13,058 - Assistant - INFO - Starting sequential audit for 1 items.
+2026-05-08 14:50:49,730 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-08 14:51:00,566 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-08 14:52:09,619 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-08 14:52:11,933 - Assistant - INFO - Browser process terminated by user request.
+2026-05-08 14:52:11,992 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-08 14:52:16,433 - Assistant - INFO - JWT found in cookie: KEYCLOAK_IDENTITY
+2026-05-08 14:52:16,434 - Assistant - INFO - Launching Full JWT Attack Suite against: https://console.neon.tech
+2026-05-08 14:52:16,651 - Assistant - ERROR - Execution failed: 
+2026-05-08 14:52:18,651 - Assistant - INFO - Raw cookies exported to terminal.
+2026-05-08 14:52:36,660 - Assistant - INFO - Starting sequential audit for 1 items.
+2026-05-08 14:53:27,080 - Assistant - INFO - System identity retrieved: alex

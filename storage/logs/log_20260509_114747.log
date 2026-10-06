@@ -1,0 +1,6 @@
+2026-05-09 11:48:11,267 - Assistant - INFO - System identity retrieved: alex
+2026-05-09 11:48:38,922 - Assistant - INFO - Target scope updated: *.neon.tech
+2026-05-09 11:48:56,235 - Assistant - INFO - Starting crawl for: https://console.neon.tech
+2026-05-09 11:48:56,236 - Assistant - INFO - Executing Waybackurls...
+2026-05-09 11:49:18,433 - Assistant - INFO - Executing GoSpider...
+2026-05-09 11:49:18,516 - Assistant - ERROR - Crawl process failed: Command '['gospider', '-s', 'https://console.neon.tech', '-w', '--quiet']' returned non-zero exit status 1.

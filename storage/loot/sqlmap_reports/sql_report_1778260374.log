@@ -1,0 +1,110 @@
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.10.2#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 20:09:26 /2026-05-08/
+
+[20:09:26] [INFO] parsing HTTP request from '/home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt'
+[20:09:26] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0' from file '/usr/share/sqlmap/data/txt/user-agents.txt'
+custom injection marker ('*') found in PATCH body. Do you want to process it? [Y/n/q] Y
+JSON data found in PATCH body. Do you want to process it? [Y/n/q] Y
+[20:09:26] [WARNING] provided value for parameter 'neon_login_indicator' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+Cookie parameter 'keycloak_token' appears to hold anti-CSRF token. Do you want sqlmap to automatically update it in further requests? [y/N] N
+Cookie parameter '_gorilla_csrf' appears to hold anti-CSRF token. Do you want sqlmap to automatically update it in further requests? [y/N] N
+[20:09:26] [INFO] flushing session file
+[20:09:27] [INFO] testing connection to the target URL
+[20:09:28] [WARNING] the web server responded with an HTTP error code (400) which could interfere with the results of the tests
+[20:09:28] [INFO] checking if the target is protected by some kind of WAF/IPS
+you provided a HTTP Cookie header value, while target URL provides its own cookies within HTTP Set-Cookie header which intersect with yours. Do you want to merge them in further requests? [Y/n] Y
+[20:09:28] [INFO] testing if the target URL content is stable
+[20:09:28] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[20:09:28] [INFO] searching for dynamic content
+[20:09:28] [INFO] dynamic content marked for removal (1 region)
+[20:09:28] [CRITICAL] target URL content appears to be heavily dynamic. sqlmap is going to retry the request(s)
+[20:09:30] [WARNING] target URL content appears to be too dynamic. Switching to '--text-only' 
+[20:09:30] [INFO] testing if PATCH parameter 'JSON #1*' is dynamic
+[20:09:30] [INFO] PATCH parameter 'JSON #1*' appears to be dynamic
+[20:09:30] [INFO] testing for SQL injection on PATCH parameter 'JSON #1*'
+[20:09:30] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[20:09:31] [WARNING] reflective value(s) found and filtering out
+[20:09:37] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[20:09:48] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (subquery - comment)'
+[20:09:53] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (subquery - comment)'
+[20:10:02] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (comment)'
+[20:10:06] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (comment)'
+[20:10:12] [INFO] testing 'MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause'
+[20:10:18] [INFO] testing 'PostgreSQL AND boolean-based blind - WHERE or HAVING clause (CAST)'
+[20:10:25] [INFO] testing 'Oracle AND boolean-based blind - WHERE or HAVING clause (CTXSYS.DRITHSX.SN)'
+[20:10:32] [INFO] testing 'SQLite AND boolean-based blind - WHERE, HAVING, GROUP BY or HAVING clause (JSON)'
+[20:10:39] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[20:10:39] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:10:40] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:10:41] [INFO] testing 'MySQL >= 5.0 boolean-based blind - ORDER BY, GROUP BY clause'
+[20:10:41] [INFO] testing 'PostgreSQL boolean-based blind - ORDER BY, GROUP BY clause'
+[20:10:42] [INFO] testing 'MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)'
+[20:10:45] [INFO] testing 'MySQL >= 5.1 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)'
+[20:10:48] [INFO] testing 'MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)'
+[20:10:53] [INFO] testing 'MySQL >= 5.6 OR error-based - WHERE or HAVING clause (GTID_SUBSET)'
+[20:10:56] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[20:11:00] [INFO] testing 'PostgreSQL OR error-based - WHERE or HAVING clause'
+[20:11:03] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[20:11:07] [INFO] testing 'Microsoft SQL Server/Sybase OR error-based - WHERE or HAVING clause (IN)'
+[20:11:09] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (CONVERT)'
+[20:11:13] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (CONCAT)'
+[20:11:16] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[20:11:20] [INFO] testing 'Oracle OR error-based - WHERE or HAVING clause (XMLType)'
+[20:11:23] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (UTL_INADDR.GET_HOST_ADDRESS)'
+[20:11:26] [INFO] testing 'Oracle OR error-based - WHERE or HAVING clause (UTL_INADDR.GET_HOST_ADDRESS)'
+[20:11:29] [INFO] testing 'MySQL >= 5.1 error-based - PROCEDURE ANALYSE (EXTRACTVALUE)'
+[20:11:32] [INFO] testing 'MySQL >= 5.1 error-based - Parameter replace (EXTRACTVALUE)'
+[20:11:32] [INFO] testing 'PostgreSQL error-based - Parameter replace'
+[20:11:33] [INFO] testing 'Microsoft SQL Server/Sybase error-based - Stacking (EXEC)'
+[20:11:34] [INFO] testing 'Generic inline queries'
+[20:11:35] [INFO] testing 'MySQL inline queries'
+[20:11:35] [INFO] testing 'PostgreSQL inline queries'
+[20:11:35] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[20:11:35] [INFO] testing 'Oracle inline queries'
+[20:11:35] [INFO] testing 'MySQL >= 5.0.12 stacked queries (comment)'
+[20:11:37] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[20:11:39] [INFO] testing 'PostgreSQL stacked queries (heavy query - comment)'
+[20:11:41] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[20:11:45] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (DECLARE - comment)'
+[20:11:47] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[20:11:49] [INFO] testing 'Oracle stacked queries (heavy query - comment)'
+[20:11:51] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
+[20:11:54] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind (query SLEEP)'
+[20:11:56] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (SLEEP)'
+[20:11:59] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind (SLEEP)'
+[20:12:02] [INFO] testing 'MySQL < 5.0.12 AND time-based blind (BENCHMARK)'
+[20:12:04] [INFO] testing 'MySQL < 5.0.12 OR time-based blind (BENCHMARK)'
+[20:12:07] [INFO] testing 'MySQL >= 5.0.12 RLIKE time-based blind'
+[20:12:09] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[20:12:12] [INFO] testing 'PostgreSQL > 8.1 OR time-based blind'
+[20:12:14] [INFO] testing 'PostgreSQL AND time-based blind (heavy query)'
+[20:12:17] [INFO] testing 'PostgreSQL OR time-based blind (heavy query)'
+[20:12:19] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[20:12:22] [INFO] testing 'Microsoft SQL Server/Sybase AND time-based blind (heavy query)'
+[20:12:25] [INFO] testing 'Microsoft SQL Server/Sybase OR time-based blind (heavy query)'
+[20:12:27] [INFO] testing 'Oracle AND time-based blind'
+[20:12:30] [INFO] testing 'Oracle OR time-based blind'
+[20:12:33] [INFO] testing 'Oracle AND time-based blind (heavy query)'
+[20:12:37] [INFO] testing 'Oracle OR time-based blind (heavy query)'
+[20:12:40] [INFO] testing 'Informix AND time-based blind (heavy query)'
+[20:12:43] [INFO] testing 'Informix OR time-based blind (heavy query)'
+[20:12:47] [INFO] testing 'MySQL >= 5.0.12 time-based blind - Parameter replace'
+it is recommended to perform only basic UNION tests if there is not at least one other (potential) technique found. Do you want to reduce the number of requests? [Y/n] Y
+[20:12:47] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[20:12:51] [INFO] testing 'MySQL UNION query (NULL) - 1 to 10 columns'
+[20:12:54] [WARNING] PATCH parameter 'JSON #1*' does not seem to be injectable
+[20:12:54] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+[20:12:54] [WARNING] HTTP error codes detected during run:
+400 (Bad Request) - 790 times
+
+[*] ending @ 20:12:54 /2026-05-08/
+

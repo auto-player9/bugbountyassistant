@@ -1,0 +1,6 @@
+q 
+SAFE
+FAILED
+GATEWAY
+H0ST
+order

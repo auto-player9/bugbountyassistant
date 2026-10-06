@@ -1,0 +1,12 @@
+2026-05-07 15:02:33,560 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-07 15:02:36,958 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-07 15:06:32,425 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-07 15:06:39,626 - Assistant - INFO - Browser process terminated by user request.
+2026-05-07 15:06:39,650 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 15:06:42,421 - Assistant - INFO - JWT found in cookie: KEYCLOAK_IDENTITY
+2026-05-07 15:06:42,421 - Assistant - INFO - Launching Full JWT Attack Suite against: https://console.neon.tech
+2026-05-07 15:06:42,548 - Assistant - ERROR - Execution failed: Traceback (most recent call last):
+  File "/home/alex/bugbountyassistant/tools/web_tools/jwt_tool/jwt_tool.py", line 26, in <module>
+    from ratelimit import limits, RateLimitException, sleep_and_retry
+ModuleNotFoundError: No module named 'ratelimit'
+

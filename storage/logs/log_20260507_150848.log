@@ -1,0 +1,8 @@
+2026-05-07 15:09:05,048 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-07 15:09:07,795 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-07 15:10:00,286 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-07 15:10:02,607 - Assistant - INFO - Browser process terminated by user request.
+2026-05-07 15:10:02,645 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 15:11:50,803 - Assistant - INFO - JWT found in cookie: KEYCLOAK_IDENTITY
+2026-05-07 15:11:50,804 - Assistant - INFO - Launching Full JWT Attack Suite against: https://console.neon.tech
+2026-05-07 15:11:50,920 - Assistant - ERROR - Execution failed: 

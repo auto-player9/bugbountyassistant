@@ -1,0 +1,14 @@
+2026-05-07 19:35:47,179 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-07 19:36:06,578 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech/
+2026-05-07 19:36:11,338 - Assistant - INFO - Opening browser for: https://console.neon.tech/
+2026-05-07 19:36:12,213 - Assistant - ERROR - Error capturing response body: Response.text: Response body is unavailable for redirect responses
+2026-05-07 19:36:12,515 - Assistant - ERROR - Error capturing response body: Response.text: Response body is unavailable for redirect responses
+2026-05-07 19:36:23,033 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 19:37:03,100 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-07 19:37:10,158 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech/
+2026-05-07 19:37:11,967 - Assistant - INFO - Opening browser for: https://console.neon.tech/
+2026-05-07 19:37:14,455 - Assistant - ERROR - Error capturing response body: Response.text: Response body is unavailable for redirect responses
+2026-05-07 19:37:14,662 - Assistant - ERROR - Error capturing response body: Response.text: Response body is unavailable for redirect responses
+2026-05-07 19:37:28,371 - Assistant - ERROR - Error capturing response body: Response.text: Target page, context or browser has been closed
+2026-05-07 19:37:28,372 - Assistant - ERROR - Error capturing response body: Response.text: Target page, context or browser has been closed
+2026-05-07 19:37:28,577 - Assistant - INFO - Session cookies successfully updated from browser memory.

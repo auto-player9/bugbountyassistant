@@ -1,0 +1,4 @@
+2026-05-10 19:30:24,545 - Assistant - INFO - Starting RAW Recon: Header Discovery on https://api-sui-cf.cetus.zone (GET)
+2026-05-10 19:30:24,545 - Assistant - INFO - Executing x8 header fuzzing for api-sui-cf_cetus_zone...
+2026-05-10 19:30:24,580 - Assistant - INFO - Header discovery finished. Raw data saved to: /home/alex/bugbountyassistant/storage/recon/headers/api-sui-cf_cetus_zone_headers.txt
+2026-05-10 19:30:27,025 - Assistant - INFO - AI requested full data from api-sui-cf_cetus_zone_headers.txt.

@@ -1,0 +1,17 @@
+--- [ 0x4l3xAi x8 FULL TERMINAL OUTPUT - METHOD: GET ] ---
+[#] NOTE. Invalid headers are ignored in the crates.io version of the tool.
+urls:         https://fun.winticket.jp/
+methods:      GET
+wordlist len: 2204
+
+GET https://fun.winticket.jp/ (404) [21817] {0}
+[info] Amount of parameters per request - 64
+Expect: code 404 -> 417
+reflects: X-Timer
+EXPECT: code 404 -> 417
+reflects: X-TIMER
+
+GET https://fun.winticket.jp/ % Expect, X-Timer
+
+
+

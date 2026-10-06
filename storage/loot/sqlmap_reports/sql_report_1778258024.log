@@ -1,0 +1,25 @@
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.10.2#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:33:43 /2026-05-08/
+
+[19:33:43] [INFO] parsing HTTP request from '/home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt'
+[19:33:43] [INFO] loading tamper module 'charencode'
+[19:33:43] [INFO] loading tamper module 'space2comment'
+it appears that you might have mixed the order of tamper scripts. Do you want to auto resolve this? [Y/n/q] Y
+[19:33:43] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' from file '/usr/share/sqlmap/data/txt/user-agents.txt'
+custom injection marker ('*') found in option '-u'. Do you want to process it? [Y/n/q] Y
+[19:33:43] [INFO] testing connection to the target URL
+[19:33:44] [CRITICAL] page not found (404)
+it is not recommended to continue in this kind of cases. Do you want to quit and make sure that everything is set up properly? [Y/n] Y
+[19:33:44] [WARNING] HTTP error codes detected during run:
+404 (Not Found) - 1 times
+
+[*] ending @ 19:33:44 /2026-05-08/
+

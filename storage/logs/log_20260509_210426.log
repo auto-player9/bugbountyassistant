@@ -1,0 +1,4 @@
+2026-05-09 21:04:32,742 - Assistant - INFO - Target scope updated: https://www.allrecipes.com/search
+2026-05-09 21:04:32,744 - Assistant - INFO - Starting Parameter Discovery on: https://www.allrecipes.com/search (GET)
+2026-05-09 21:04:32,744 - Assistant - INFO - Executing x8 for parameter fuzzing...
+2026-05-09 21:04:32,892 - Assistant - ERROR - Parameter discovery failed: Command '['/home/alex/.cargo/bin/x8', '-u', 'https://www.allrecipes.com/search', '-X', 'GET', '--follow-redirects', '-w', '/home/alex/bugbountyassistant/storage/wordlists/param_wordlist.txt']' returned non-zero exit status 1.

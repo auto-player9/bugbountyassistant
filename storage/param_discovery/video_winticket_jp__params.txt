@@ -1,0 +1,30 @@
+--- [ x8 RAW OUTPUT ] ---
+urls:         https://video.winticket.jp/
+methods:      GET
+wordlist len: 6
+
+GET https://video.winticket.jp/?%s (200) [992] {0}
+[info] Amount of parameters per request - 256
+
+GET https://video.winticket.jp/ % 
+
+
+
+
+
+--- [ Arjun RAW OUTPUT ] ---
+[92m    _
+   /_| _ '
+  (  |/ /(//) v2.2.7
+      _/      [0m
+
+[1;97m[*][0m Scanning 0/1: https://video.winticket.jp/
+[1;97m[*][0m Probing the target for stability
+[1;97m[*][0m Analysing HTTP response for anomalies
+[1;97m[*][0m Logicforcing the URL endpoint
+[1;93m[!][0m Processing chunks: 1/2     
+[1;93m[!][0m Processing chunks: 2/2     
+[1;93m[!][0m Processing chunks: 1/2     
+[1;93m[!][0m Processing chunks: 2/2     
+[1;93m[!][0m No parameters were discovered.
+

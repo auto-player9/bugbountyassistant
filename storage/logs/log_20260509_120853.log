@@ -1,0 +1,8 @@
+2026-05-09 12:10:28,104 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-09 12:10:30,003 - Assistant - INFO - Navigating to: https://console.neon.tech for session sync.
+2026-05-09 12:11:47,603 - Assistant - INFO - Session cookies successfully extracted.
+2026-05-09 12:11:49,753 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-09 12:12:08,701 - Assistant - INFO - Starting crawl for: https://console.neon.tech
+2026-05-09 12:12:08,702 - Assistant - INFO - Executing Waybackurls...
+2026-05-09 12:12:34,812 - Assistant - INFO - Executing GoSpider...
+2026-05-09 12:12:34,813 - Assistant - INFO - Session cookies injected into crawler.

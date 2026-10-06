@@ -1,0 +1,5 @@
+2026-05-08 22:18:40,786 - Assistant - INFO - Target scope updated: *.neon.tech
+2026-05-08 22:19:13,239 - Assistant - INFO - Initiating interactive login for: *.neon.tech
+2026-05-08 22:19:33,521 - Assistant - INFO - Navigating to: https://console.neon.tech for session sync.
+2026-05-08 22:22:46,814 - Assistant - INFO - Session cookies successfully extracted.
+2026-05-08 22:22:50,023 - Assistant - INFO - Session cookies successfully updated from browser memory.

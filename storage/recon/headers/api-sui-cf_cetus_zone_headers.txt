@@ -1,0 +1,19 @@
+--- [ 0x4l3xAi x8 FULL TERMINAL OUTPUT - METHOD: GET ] ---
+[#] NOTE. Invalid headers are ignored in the crates.io version of the tool.
+urls:         https://api-sui-cf.cetus.zone/
+methods:      GET
+wordlist len: 2204
+
+GET https://api-sui-cf.cetus.zone/ (200) [128] {0}
+[info] Amount of parameters per request - 64
+Cf-Connecting-Ip: code 200 -> 403
+X-Original-Url: code 200 -> 403
+X-Rewrite-Url: code 200 -> 403
+CF-CONNECTING-IP: code 200 -> 403
+X-ORIGINAL-URL: code 200 -> 403
+X-REWRITE-URL: code 200 -> 403
+
+GET https://api-sui-cf.cetus.zone/ % Cf-Connecting-Ip, X-Original-Url, X-Rewrite-Url
+
+
+

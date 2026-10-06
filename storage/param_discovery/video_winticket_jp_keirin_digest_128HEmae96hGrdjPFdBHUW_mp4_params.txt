@@ -1,0 +1,19 @@
+--- [ x8 RAW OUTPUT ] ---
+urls:         https://video.winticket.jp/keirin/digest/128HEmae96hGrdjPFdBHUW.mp4
+methods:      GET
+wordlist len: 6
+
+[#] [https://video.winticket.jp/keirin/digest/128HEmae96hGrdjPFdBHUW.mp4] request or response body error: operation timed out
+
+
+
+--- [ Arjun RAW OUTPUT ] ---
+[92m    _
+   /_| _ '
+  (  |/ /(//) v2.2.7
+      _/      [0m
+
+[1;97m[*][0m Scanning 0/1: https://video.winticket.jp/keirin/digest/128HEmae96hGrdjPFdBHUW.mp4
+[1;97m[*][0m Probing the target for stability
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+[1;91m[-][0m Skipped https://video.winticket.jp/keirin/digest/128HEmae96hGrdjPFdBHUW.mp4 due to errors

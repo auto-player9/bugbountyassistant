@@ -1,0 +1,1 @@
+2026-05-08 20:09:25,975 - Assistant - INFO - Launching SQLmap: sqlmap --batch --random-agent --risk=3 --level=2 --flush-session -r /home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt

@@ -1,0 +1,18 @@
+2026-05-07 20:53:49,523 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-07 20:53:53,828 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-07 20:55:23,271 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-07 20:55:25,952 - Assistant - INFO - Browser process terminated by user request.
+2026-05-07 20:55:26,012 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 20:55:32,511 - Assistant - INFO - JWT found in cookie: KEYCLOAK_IDENTITY
+2026-05-07 20:55:32,512 - Assistant - INFO - Launching Full JWT Attack Suite against: https://console.neon.tech
+2026-05-07 20:55:32,706 - Assistant - ERROR - Execution failed: 
+2026-05-07 20:55:50,025 - Assistant - INFO - Raw cookies exported to terminal.
+2026-05-07 21:05:29,244 - Assistant - INFO - JWT found in cookie: KEYCLOAK_IDENTITY
+2026-05-07 21:05:29,248 - Assistant - INFO - Launching Full JWT Attack Suite against: https://console.neon.tech
+2026-05-07 21:05:29,517 - Assistant - ERROR - Execution failed: 
+2026-05-07 22:26:52,306 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-07 22:26:59,238 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-07 22:27:10,903 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-07 22:27:13,971 - Assistant - INFO - Browser process terminated by user request.
+2026-05-07 22:27:14,095 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 22:27:24,017 - Assistant - ERROR - Execution Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 36.983574085s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}

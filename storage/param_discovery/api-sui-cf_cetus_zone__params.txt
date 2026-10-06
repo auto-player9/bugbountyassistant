@@ -1,0 +1,24 @@
+--- [ x8 RAW OUTPUT ] ---
+urls:         https://api-sui-cf.cetus.zone/
+methods:      GET
+wordlist len: 6
+
+GET https://api-sui-cf.cetus.zone/?%s (200) [128] {0}
+[info] Amount of parameters per request - 256
+
+GET https://api-sui-cf.cetus.zone/ % 
+
+
+
+
+
+--- [ Arjun RAW OUTPUT ] ---
+[92m    _
+   /_| _ '
+  (  |/ /(//) v2.2.7
+      _/      [0m
+
+[1;97m[*][0m Scanning 0/1: https://api-sui-cf.cetus.zone/
+[1;97m[*][0m Probing the target for stability
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+[1;91m[-][0m Skipped https://api-sui-cf.cetus.zone/ due to errors

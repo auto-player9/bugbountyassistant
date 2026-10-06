@@ -1,0 +1,57 @@
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.10.2#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:45:14 /2026-05-08/
+
+[19:45:14] [INFO] parsing HTTP request from '/home/alex/bugbountyassistant/storage/loot/sqlmap_target.txt'
+[19:45:14] [INFO] loading tamper module 'space2comment'
+[19:45:14] [INFO] loading tamper module 'between'
+it appears that you might have mixed the order of tamper scripts. Do you want to auto resolve this? [Y/n/q] Y
+[19:45:14] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' from file '/usr/share/sqlmap/data/txt/user-agents.txt'
+custom injection marker ('*') found in PATCH body. Do you want to process it? [Y/n/q] Y
+JSON data found in PATCH body. Do you want to process it? [Y/n/q] Y
+[19:45:14] [INFO] flushing session file
+[19:45:14] [INFO] testing connection to the target URL
+[19:45:15] [WARNING] the web server responded with an HTTP error code (400) which could interfere with the results of the tests
+[19:45:15] [INFO] checking if the target is protected by some kind of WAF/IPS
+you provided a HTTP Cookie header value, while target URL provides its own cookies within HTTP Set-Cookie header which intersect with yours. Do you want to merge them in further requests? [Y/n] Y
+[19:45:15] [INFO] testing if the target URL content is stable
+[19:45:15] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[19:45:15] [INFO] searching for dynamic content
+[19:45:15] [INFO] dynamic content marked for removal (1 region)
+[19:45:16] [CRITICAL] target URL content appears to be heavily dynamic. sqlmap is going to retry the request(s)
+[19:45:18] [WARNING] target URL content appears to be too dynamic. Switching to '--text-only' 
+[19:45:18] [INFO] testing if PATCH parameter 'JSON #1*' is dynamic
+[19:45:18] [INFO] PATCH parameter 'JSON #1*' appears to be dynamic
+[19:45:19] [INFO] testing for SQL injection on PATCH parameter 'JSON #1*'
+[19:45:19] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:45:20] [WARNING] reflective value(s) found and filtering out
+[19:45:23] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[19:45:23] [INFO] testing 'MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)'
+[19:45:25] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[19:45:28] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[19:45:29] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[19:45:31] [INFO] testing 'Generic inline queries'
+[19:45:31] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[19:45:33] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[19:45:35] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[19:45:36] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
+[19:45:37] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[19:45:39] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[19:45:40] [INFO] testing 'Oracle AND time-based blind'
+it is recommended to perform only basic UNION tests if there is not at least one other (potential) technique found. Do you want to reduce the number of requests? [Y/n] Y
+[19:45:41] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[19:45:42] [WARNING] PATCH parameter 'JSON #1*' does not seem to be injectable
+[19:45:42] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests
+[19:45:42] [WARNING] HTTP error codes detected during run:
+400 (Bad Request) - 83 times
+
+[*] ending @ 19:45:42 /2026-05-08/
+

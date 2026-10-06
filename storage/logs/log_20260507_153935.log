@@ -1,0 +1,7 @@
+2026-05-07 15:40:41,354 - Assistant - WARNING - Session is empty.
+2026-05-07 15:44:20,376 - Assistant - INFO - Initiating interactive login for: https://console.neon.tech
+2026-05-07 15:44:25,096 - Assistant - INFO - Navigating to: https://console.neon.tech - Please perform manual login in the opened window.
+2026-05-07 15:45:26,489 - Assistant - INFO - Session cookies successfully extracted from browser memory.
+2026-05-07 15:45:29,343 - Assistant - INFO - Browser process terminated by user request.
+2026-05-07 15:45:29,402 - Assistant - INFO - Session cookies successfully updated from browser memory.
+2026-05-07 15:52:04,927 - Assistant - ERROR - Execution Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
